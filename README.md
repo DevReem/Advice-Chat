@@ -1,18 +1,21 @@
-: Advice Chat App هو تطبيق ويب تفاعلي باستخدام React  يتيح للمستخدمين إرسال رسائل واستقبال نصائح عشوائية من الإنترنت عبر بوت ذكي. يتميز التطبيق بوضع الداكن والفاتح وإمكانية مسح المحادثة بسهولة.
-________________________________________
-الميزات:
- إرسال واستقبال الرسائل:
-يمكن للمستخدم كتابة رسالة واستلام رد تلقائي من البوت مع نصيحة عشوائية.
-	وضع داكن / فاتح:
-التبديل بين الوضعين وحفظ التفضيل في LocalStorage 
-	مسح المحادثة:
-زر لمسح جميع الرسائل الحالية وإعادة المحادثة إلى حالتها الفارغة.
-	عرض الرسائل بشكل منظم:
-رسائل المستخدم تظهر مع أيقونة 👤، ورسائل البوت مع أيقونة 🤖.
-________________________________________
-التقنيات المستخدمة:
- React لإدارة واجهة المستخدم.
- Axios لجلب البيانات من API خارجي.
-LocalStorage  لحفظ إعدادات الوضع الداكن.
- CSS لتصميم واجهة المستخدم.
- Advice Slip API للحصول على النصائح العشوائية
+Advice Chat Bot
+A simple React chat app where a bot responds with random advice from an API.
+ Features
+•	Chat with advice bot
+•	Dark/Light mode (saved in browser)
+•	Clear chat button
+•	Send with Enter key
+ Technologies
+•	React (useState, useEffect)
+•	Axios
+•	LocalStorage
+•	Advice Slip API
+
+What I Learned
+•	Building chat interfaces
+•	API integration
+•	LocalStorage usage
+•	Theme switching
+ API
+Endpoint: https://api.adviceslip.com/advice
+
